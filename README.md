@@ -6,21 +6,21 @@
 
 ## Description
 
-This project implements an object detection system using the YOLOv3 (You Only Look Once) deep learning model and OpenCV. It can identify and localize multiple objects in an image, highlighting them with bounding boxes and labels. The system is useful for tasks such as surveillance, autonomous driving, and general image analysis.
+This project implements an object detection system using the YOLOv3 (You Only Look Once) deep learning model and OpenCV. It can identify a specific target object and localize multiple objects in an image, highlighting them with bounding boxes and labels. The system is useful for tasks such as surveillance, autonomous driving, and general image analysis.
 
  
 
-## 📚 Features
+## Features
 
 * Load pre-trained YOLOv3 model (`yolov3.weights` and `yolov3.cfg`)
 * Recognize 80 common objects from the COCO dataset
 * Visualize detections with bounding boxes and confidence scores
 * Customize detection by selecting a specific target object
-* Easy-to-use and beginner-friendly
+ 
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ```bash
 pip install opencv-python matplotlib numpy
@@ -34,7 +34,7 @@ Download the following files and place them in the project folder:
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. Clone the repository and open the notebook.
 2. Update the paths to the model files and your input image.
@@ -42,13 +42,13 @@ Download the following files and place them in the project folder:
 
  
 
-## 📌 Example Output
+##  Example Output
 
 <img src="sample_output.png" alt="Detection Output" width="600"/>
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── yolov3.cfg
@@ -60,7 +60,7 @@ Download the following files and place them in the project folder:
 
 ---
 
-## 🤖 Model
+##  Model
 
 * **YOLOv3:** Fast, real-time object detection model trained on the COCO dataset.
 * **Frameworks:** OpenCV, NumPy, Matplotlib
