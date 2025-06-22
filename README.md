@@ -28,7 +28,7 @@ pip install opencv-python matplotlib numpy
 
 Download the following files and place them in the project folder:
 
-* [`yolov3.weights`]([https://pjreddie.com/media/files/yolov3.weights](https://sourceforge.net/projects/yolov3.mirror/))
+* [`yolov3.weights`](https://sourceforge.net/projects/yolov3.mirror/)
 * [`yolov3.cfg`](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg)
 * [`coco.names`](https://github.com/pjreddie/darknet/blob/master/data/coco.names)
 
